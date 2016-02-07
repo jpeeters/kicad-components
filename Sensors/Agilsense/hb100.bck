@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HB100
+D Microwave Motion Sensor
+K doppler, microwave, sensor
+$ENDCMP
+#
+#End Doc Library
