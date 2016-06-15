@@ -5,6 +5,7 @@
   (fp_text value EKMB1301111K (at 0.1524 -7.2136) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
+  (fp_circle (center 0.1 0) (end 4.6 3.2) (layer F.SilkS) (width 0.15))
   (fp_circle (center 0.076708 0.015902) (end 2.616708 0.015902) (layer Dwgs.User) (width 0.1))
   (fp_line (start 0.076708 0.015902) (end -2.72889 2.8215) (layer Dwgs.User) (width 0.1))
   (fp_line (start 0.076708 0.015902) (end 2.882306 -2.789696) (layer Dwgs.User) (width 0.1))
@@ -71,4 +72,9 @@
   (pad 1 thru_hole circle (at -1.7272 -1.778) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 1.8796 -1.778) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at -1.7272 1.8034) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask F.SilkS))
+  (model /home/julien/Downloads/ekmb1301111k.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 90))
+  )
 )
